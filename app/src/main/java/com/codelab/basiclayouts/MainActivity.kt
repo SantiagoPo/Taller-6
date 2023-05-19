@@ -84,7 +84,7 @@ fun SearchBar(
     )
 }
 
-// Step: Align your body - Alignment
+
 @Composable
 fun AlignYourBodyElement(
     @DrawableRes drawable: Int,
@@ -113,7 +113,7 @@ fun AlignYourBodyElement(
     }
 }
 
-// Step: Favorite collection card - Material Surface
+
 @Composable
 fun FavoriteCollectionCard(
     @DrawableRes drawable: Int,
@@ -143,7 +143,7 @@ fun FavoriteCollectionCard(
     }
 }
 
-// Step: Align your body row - Arrangements
+
 @Composable
 fun AlignYourBodyRow(
     modifier: Modifier = Modifier
@@ -159,7 +159,7 @@ fun AlignYourBodyRow(
     }
 }
 
-// Step: Favorite collections grid - LazyGrid
+
 @Composable
 fun FavoriteCollectionsGrid(
     modifier: Modifier = Modifier
@@ -177,7 +177,7 @@ fun FavoriteCollectionsGrid(
     }
 }
 
-// Step: Home section - Slot APIs
+
 @Composable
 fun HomeSection(
     @StringRes title: Int,
@@ -196,7 +196,7 @@ fun HomeSection(
     }
 }
 
-// Step: Home screen - Scrolling
+
 @Composable
 fun HomeScreen(modifier: Modifier = Modifier) {
     Column(
@@ -215,7 +215,7 @@ fun HomeScreen(modifier: Modifier = Modifier) {
     }
 }
 
-// Step: Bottom navigation - Material
+
 @Composable
 private fun SootheBottomNavigation(modifier: Modifier = Modifier) {
     BottomNavigation(
@@ -251,7 +251,7 @@ private fun SootheBottomNavigation(modifier: Modifier = Modifier) {
     }
 }
 
-// Step: MySoothe App - Scaffold
+
 @Composable
 fun MySootheApp() {
     MySootheTheme {
