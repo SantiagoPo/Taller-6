@@ -58,7 +58,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-// Step: Search bar - Modifiers
+
 @Composable
 fun SearchBar(
     modifier: Modifier = Modifier
